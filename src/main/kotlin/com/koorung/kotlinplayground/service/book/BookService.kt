@@ -1,7 +1,7 @@
-package com.koorung.kotlinplayground.service
+package com.koorung.kotlinplayground.service.book
 
 import com.koorung.kotlinplayground.domain.book.Book
-import com.koorung.kotlinplayground.repository.BookRepository
+import com.koorung.kotlinplayground.repository.book.BookRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

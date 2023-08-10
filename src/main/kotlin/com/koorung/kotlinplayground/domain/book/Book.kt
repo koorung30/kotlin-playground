@@ -1,7 +1,7 @@
 package com.koorung.kotlinplayground.domain.book
 
 import jakarta.persistence.*
-import java.util.UUID
+import java.util.*
 
 @Entity
 class Book(

@@ -1,24 +1,30 @@
-package com.koorung.kotlinplayground.service
+package com.koorung.kotlinplayground.service.book
 
 import com.koorung.kotlinplayground.domain.book.Book
-import com.koorung.kotlinplayground.domain.book.BookType
-import com.koorung.kotlinplayground.repository.BookRepository
-import org.assertj.core.api.Assertions
-import org.assertj.core.api.Assertions.*
-import org.junit.jupiter.api.Assertions.*
+import com.koorung.kotlinplayground.repository.book.BookRepository
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
-import org.springframework.test.annotation.Rollback
 import org.springframework.transaction.annotation.Transactional
-import kotlin.reflect.KClass
 
 @Transactional
 @SpringBootTest
 class BookServiceTest @Autowired constructor(
     private val bookService: BookService,
-    private val bookRepository: BookRepository
+    private val bookRepository: BookRepository,
 ) {
+
+//    @BeforeEach
+//    fun init() {
+//        bookRepository.deleteAll()
+//    }
+//
+//    @AfterEach
+//    fun cleanup() {
+//        bookRepository.deleteAll()
+//    }
+
     @Test
     fun `책 저장하기`() {
         // given
