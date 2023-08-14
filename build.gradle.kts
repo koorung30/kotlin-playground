@@ -8,6 +8,15 @@ plugins {
 	kotlin("plugin.jpa") version "1.8.22"
 }
 
+// K2 컴파일러 프리뷰버전 사용
+kotlin {
+	sourceSets.all {
+		languageSettings {
+			languageVersion = "2.0"
+		}
+	}
+}
+
 group = "com.koorung"
 version = "0.0.1-SNAPSHOT"
 
