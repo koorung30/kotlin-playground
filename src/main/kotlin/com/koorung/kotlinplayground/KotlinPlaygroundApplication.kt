@@ -5,6 +5,7 @@ import org.springframework.boot.runApplication
 import org.springframework.context.support.beans
 import org.springframework.web.servlet.config.annotation.CorsRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
+import org.springframework.web.servlet.function.router
 
 @SpringBootApplication
 class KotlinPlaygroundApplication
