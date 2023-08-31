@@ -9,4 +9,4 @@
 
 [아토믹코틀린](https://www.yes24.com/Product/Goods/117817486) 책을 읽고 정리한 내용
 
-`>>` [링크](./test/kotlin/com/koorung/kotlinplayground/atomickotlin)
+`>>` [링크](src/test/kotlin/com/koorung/kotlinplayground/atomickotlin/README.md)
