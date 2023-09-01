@@ -53,4 +53,5 @@
 코틀린에서 Nullable 타입에 대해 자체적으로 제공하는 확장함수가 존재한다.
 
 ![img_2.png](img_2.png)
+<br/>
 `CharSequence?` 의 확장함수 <span style="color : green">*isNullOrEmpty*</span>
