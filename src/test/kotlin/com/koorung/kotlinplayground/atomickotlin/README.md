@@ -12,3 +12,4 @@
 #### [ATOM36 : destructuring](./atom36)
 #### [ATOM38 : 코틀린의 null처리](./atom38)
 #### [ATOM39 : 제네릭](./atom39)
+#### [ATOM44 : 람다](./atom44)
