@@ -80,8 +80,8 @@ class SimpleTest {
                     // abs(diff)가 같을 때 (차이가 0일때) 2번 조건으로, 아니면 1번 조건으로 정렬
                     return first == 0 ? second : first;
                 })
-                // 5. 상위 5개값 가져오기
-                .limit(5)
+                // 5. k개 가져오기
+                .limit(k)
                 // 6. List[abs(diff), value] -> List[value]로 변경
                 .map(l -> l.get(1))
                 // 7. 재정렬

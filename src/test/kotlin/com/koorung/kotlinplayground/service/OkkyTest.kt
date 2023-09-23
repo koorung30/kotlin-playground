@@ -68,13 +68,13 @@ class OkkyTest {
         val k = 5   // 개수
 
         val result = arr
-            .map { abs(it - x ) to it }              // 1. 각 배열의 값을 x로 뺀 절대값을 key, 원래값을 value로 하는 Map 생성
+            .map { abs(it - x ) to it }              // 1. Pair<abs(diff), value> 생성
             .sortedWith(
-                compareBy( { it.first }, { it.second }) // 2. key로 우선 정렬하고 동일하다면 value로 정렬
+                compareBy( { it.first }, { it.second }) // 2. first로 우선 정렬하고 동일하다면 second로 정렬
             )
             .slice(0 until k)             // 3. k 개수만큼 슬라이스
-            .map { it.second }
-            .sorted()
+            .map { it.second }                          // 4. List<Pair<Int, Int>> -> List<Int>
+            .sorted()                                   // 5. 재정렬
             .toIntArray()
 
         println(arr.toList())
