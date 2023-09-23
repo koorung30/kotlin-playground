@@ -27,3 +27,4 @@
 #### [ATOM64 : 상속과 확장](./atom64)
 #### [ATOM65 : 클래스 위임](./atom65)
 #### [ATOM67 : sealed class 및 타입검사](./atom67)
+#### [ATOM70 : object](./atom70)
