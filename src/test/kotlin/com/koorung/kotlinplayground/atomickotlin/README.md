@@ -29,3 +29,4 @@
 #### [ATOM67 : sealed class 및 타입검사](./atom67)
 #### [ATOM70 : object](./atom70)
 #### [ATOM71 : inner class](./atom71)
+#### [ATOM72 : companion object](./atom72)
