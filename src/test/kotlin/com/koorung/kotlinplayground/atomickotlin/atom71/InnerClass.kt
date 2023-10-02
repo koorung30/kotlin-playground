@@ -38,7 +38,7 @@ class InnerClass {
 //        val closet = hotel.Closet() // 컴파일 오류
         val closet = hotel.closet()
 
-        assertThat(room.callReception()).isEqualTo("Room 300 Calling koorung")
+        assertThat(room.callReception()).isEqualTo("Room 300 Calling default")
     }
 
     @Test
