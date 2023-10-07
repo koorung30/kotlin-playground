@@ -33,3 +33,4 @@
 #### [ATOM73 : 예외처리](./atom73)
 #### [ATOM74 : 코틀린의 Contract](./atom74)
 #### [ATOM75 : 코틀린의 Nothing 타입](./atom75)
+#### [ATOM76 : use 함수를 이용한 자원정리](./atom76)
