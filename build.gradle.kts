@@ -43,6 +43,8 @@ dependencies {
 	runtimeOnly("org.postgresql:postgresql")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation("io.klogging:klogging-jvm:0.5.6")
+//	testImplementation("io.klogging:klogging-jvm:0.5.6")
 }
 
 tasks.withType<KotlinCompile> {
